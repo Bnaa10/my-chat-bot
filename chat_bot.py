@@ -8,9 +8,13 @@ TOKEN = "8757250098:AAHKd06LDm4yT4yS-51X_GxlIjffw-8-oFw"
 ADMIN_ID = "5554879094"  
 
 bot = telebot.TeleBot(TOKEN)
+
+# 🔥 MANYBOT KI PURANI SETTING (WEBHOOK) CLEAR KARNE KE LIYE 🔥
+bot.remove_webhook()
+
 app = Flask(__name__)
 
-# 🌐 Render ko lagna chahiye ki ek website chal rahi hai, isliye ye dummy page banaya hai
+# 🌐 Render ko lagna chahiye ki ek website chal rahi hai
 @app.route('/')
 def index():
     return "Bot is active and running smoothly!"
