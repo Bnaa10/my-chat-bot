@@ -4,7 +4,7 @@ import threading
 import os
 
 # 🔑 APNA DATA YAHAN DAALEIN
-TOKEN = "8757250098:AAFLDk3e4pxG43vfOoXQZe4ZAG0x_bjnxD8"
+TOKEN = "8757250098:AAHKd06LDm4yT4yS-51X_GxlIjffw-8-oFw"
 ADMIN_ID = "5554879094"  
 
 bot = telebot.TeleBot(TOKEN)
